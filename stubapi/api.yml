@@ -1,0 +1,9 @@
+- request:
+    method: GET
+    url: /hi/1
+
+  response:
+    status: 200
+    headers:
+       content-type: application/json
+    file: data.json

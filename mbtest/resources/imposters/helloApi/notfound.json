@@ -1,0 +1,16 @@
+{
+  "responses": [
+  {
+    "inject": "<%- stringify(filename, 'helloApi/notfound.ejs') %>"
+  }
+      
+  ],
+  "predicates": [
+    {
+      "matches": {
+        "method" : "GET",
+        "path" : "/hi/2"
+    }
+    }
+  ]
+}

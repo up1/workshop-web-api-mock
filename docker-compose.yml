@@ -1,0 +1,17 @@
+version: '3.7'
+services: 
+    db:
+        build: ./mysql
+    web:
+        build: ./dxc
+        ports: 
+            - 8080:8080
+    stubapi:
+        build: ./stubapi
+        ports: 
+            - 8882:8882
+    mbtest:
+        build: ./mbtest
+        ports: 
+            - 8010:8010
+            - 2525:2525

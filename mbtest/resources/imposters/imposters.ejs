@@ -1,0 +1,13 @@
+{
+  "imposters": [
+    {
+      "port": 8010,
+      "protocol": "http",
+      "name": "Hello Mock",
+      "stubs": [
+        <% include helloApi/found.json %>,
+        <% include helloApi/notfound.json %>
+      ]
+    }
+  ]
+}
