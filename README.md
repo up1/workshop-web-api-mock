@@ -3,6 +3,7 @@
 * MySQL
 * Stubby4j
 * MBTest
+* Postman + newman
 
 ### how to run ?
 ```
