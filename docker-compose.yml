@@ -2,8 +2,8 @@ version: '3.7'
 services: 
     db:
         build: ./mysql
-    web:
-        build: ./dxc
+    api:
+        build: ./demo
         ports: 
             - 8080:8080
     stubapi:
